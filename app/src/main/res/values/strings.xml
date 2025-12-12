@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Portfolio App</string>
+    <string name="tentang_saya">Tentang Saya</string>
+    <string name="pendidikan">Pendidikan</string>
+    <string name="pengalaman">Pengalaman</string>
+    <string name="skills">Skills</string>
+    <string name="portofolio">Portofolio</string>
+    <string name="kontak">Kontak</string>
+    <string name="download_cv">Download CV</string>
+</resources>

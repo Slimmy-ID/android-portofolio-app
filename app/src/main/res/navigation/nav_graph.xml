@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tentangFragment">
+
+    <fragment
+        android:id="@+id/tentangFragment"
+        android:name="com.portfolio.app.ui.tentang.TentangFragment"
+        android:label="Tentang Saya">
+    </fragment>
+
+    <fragment
+        android:id="@+id/pendidikanFragment"
+        android:name="com.portfolio.app.ui.pendidikan.PendidikanFragment"
+        android:label="Pendidikan">
+    </fragment>
+
+    <fragment
+        android:id="@+id/pengalamanFragment"
+        android:name="com.portfolio.app.ui.pengalaman.PengalamanFragment"
+        android:label="Pengalaman">
+    </fragment>
+
+    <fragment
+        android:id="@+id/skillFragment"
+        android:name="com.portfolio.app.ui.skill.SkillFragment"
+        android:label="Skills">
+    </fragment>
+
+    <fragment
+        android:id="@+id/portofolioFragment"
+        android:name="com.portfolio.app.ui.portofolio.PortofolioFragment"
+        android:label="Portofolio">
+    </fragment>
+
+    <fragment
+        android:id="@+id/kontakFragment"
+        android:name="com.portfolio.app.ui.kontak.KontakFragment"
+        android:label="Kontak">
+    </fragment>
+
+</navigation>

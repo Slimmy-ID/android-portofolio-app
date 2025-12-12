@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tentangFragment"
+        android:icon="@drawable/ic_person"
+        android:title="Tentang" />
+
+    <item
+        android:id="@+id/pendidikanFragment"
+        android:icon="@drawable/ic_education"
+        android:title="Pendidikan" />
+
+    <item
+        android:id="@+id/pengalamanFragment"
+        android:icon="@drawable/ic_work"
+        android:title="Pengalaman" />
+
+    <item
+        android:id="@+id/skillFragment"
+        android:icon="@drawable/ic_code"
+        android:title="Skills" />
+
+    <item
+        android:id="@+id/portofolioFragment"
+        android:icon="@drawable/ic_folder"
+        android:title="Portofolio" />
+
+    <item
+        android:id="@+id/kontakFragment"
+        android:icon="@drawable/ic_contact"
+        android:title="Kontak" />
+
+</menu>
