@@ -1,21 +1,68 @@
-MIT License
+Slimmy License v1.0
 
-Copyright (c) 2025 winkyid
+Copyright (c) 2025 Slimmy Projects
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+PREAMBLE
+The Slimmy License grants broad permissions similar to the MIT License, with additional provisions regarding attribution, patents, trademarks, and termination. This License applies to software and related works, including source code, binaries, documentation, and assets.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+DEFINITIONS
+"Software" means the source code, compiled binaries, documentation, and associated assets licensed under this License.
+"Copyright Holder" means the individual or entity identified as the copyright owner.
+"Recipient" means any person or entity obtaining a copy of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+GRANT OF RIGHTS
+Subject to the terms of this License, the Copyright Holder hereby grants the Recipient a non-exclusive, royalty-free, transferable, and sublicensable license to:
+  a. Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software; and
+  b. Create derivative works based on the Software.
+
+CONDITIONS OF USE AND DISTRIBUTION
+1. Copyright Notice and Attribution
+   - This License and the copyright notice must be included in all copies or substantial portions of the Software.
+   - Attribution to "Slimmy Projects" must be retained in accompanying documentation and, where reasonably practicable, in related project materials.
+
+2. NOTICE File
+   - If a NOTICE file is provided with the Software, any distribution of the Software or derivative works must include a copy of that NOTICE file or a clear reference to it.
+
+3. Modifications
+   - Any substantial modifications must be clearly documented, and it must be stated that such modifications are not part of the original Software provided by the Copyright Holder.
+
+4. Trademarks
+   - This License does not grant permission to use the trade names, trademarks, service marks, or logos of Slimmy Projects for promotion, endorsement, or branding purposes without prior written consent.
+
+PATENT RIGHTS
+1. Patent Grant
+   - Each contributor grants the Recipient a non-exclusive, royalty-free patent license to make, use, sell, offer for sale, import, and otherwise transfer the Software, to the extent that such license is necessary to use the contributed code.
+
+2. Patent Retaliation
+   - If the Recipient initiates patent litigation alleging that the Software or any contribution infringes a patent, the patent licenses granted under this License to that Recipient shall terminate as of the date such litigation is filed.
+
+DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE COPYRIGHT HOLDER, CONTRIBUTORS, OR LICENSORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+TERMINATION
+1. Breach
+   - This License shall automatically terminate if the Recipient materially breaches its terms and fails to cure such breach within thirty (30) days after receiving written notice.
+
+2. Effect of Termination
+   - Upon termination, all rights granted under this License shall cease immediately, except for provisions which by their nature should survive termination.
+
+SUBLICENSING
+- The Recipient may sublicense the Software, provided that all recipients are bound by the terms of this License and receive the required notices.
+
+LEGAL COMPLIANCE
+- Nothing in this License permits the Software to be used for unlawful purposes. The Recipient is responsible for compliance with all applicable laws and regulations.
+
+GOVERNING LAW
+- This License shall be governed by and construed in accordance with the laws of the Republic of Indonesia, without regard to conflict of law principles, unless otherwise agreed in writing.
+
+MISCELLANEOUS
+- If any provision of this License is held to be unenforceable, such provision shall be reformed or severed to the extent necessary to make it enforceable, without affecting the remainder of the License.
+- This License represents the entire agreement concerning the Software.
+
+ACCEPTANCE
+- By using, copying, modifying, or distributing the Software, the Recipient agrees to be bound by the terms of this Slimmy License v1.0.
+
+(End of Slimmy License v1.0)
