@@ -124,7 +124,7 @@ Atau versi lengkapnya:
 
 ## 📄 Lisensi
 
-Proyek **Porto Van_1NR.apk** dilisensikan di bawah **Slimmy License v1.0**.
+Proyek **Android Porotofolio App** dilisensikan di bawah **Slimmy License v1.0**.
 
 Lisensi ini memberikan izin luas untuk:
 
