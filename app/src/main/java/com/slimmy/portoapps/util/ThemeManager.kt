@@ -1,4 +1,4 @@
-package com.portfolio.app.util
+package com.slimmy.portoapps.util
 
 import android.content.Context
 import androidx.datastore.core.DataStore

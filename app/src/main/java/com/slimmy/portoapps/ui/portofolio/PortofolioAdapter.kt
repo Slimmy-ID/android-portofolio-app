@@ -1,14 +1,14 @@
-package com.portfolio.app.ui.portofolio
+package com.slimmy.portoapps.ui.portofolio
 
-import android.content.Intent
-import android.net.Uri
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.portfolio.app.data.Portofolio
-import com.portfolio.app.databinding.ItemPortofolioBinding
+import com.slimmy.portoapps.MainActivity
+import com.slimmy.portoapps.data.Portofolio
+import com.slimmy.portoapps.databinding.ItemPortofolioBinding
 
 class PortofolioAdapter : ListAdapter<Portofolio, PortofolioAdapter.ViewHolder>(DiffCallback()) {
 
@@ -34,10 +34,12 @@ class PortofolioAdapter : ListAdapter<Portofolio, PortofolioAdapter.ViewHolder>(
             binding.tvTeknologi.text = item.teknologi
             
             binding.root.setOnClickListener {
-                if (item.link.isNotEmpty()) {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(item.link))
-                    it.context.startActivity(intent)
+                val bundle = Bundle().apply {
+                    putInt("portofolioId", item.id)
                 }
+                // Menggunakan fungsi navigasi kustom di MainActivity untuk menghindari crash ViewPager2
+                val activity = it.context as? MainActivity
+                activity?.navigateToDetail(bundle)
             }
         }
     }

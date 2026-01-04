@@ -1,12 +1,13 @@
-package com.portfolio.app.ui.pendidikan
+package com.slimmy.portoapps.ui.pendidikan
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.portfolio.app.data.Pendidikan
-import com.portfolio.app.databinding.ItemPendidikanBinding
+import com.slimmy.portoapps.data.Pendidikan
+import com.slimmy.portoapps.databinding.ItemPendidikanBinding
 
 class PendidikanAdapter : ListAdapter<Pendidikan, PendidikanAdapter.ViewHolder>(DiffCallback()) {
 
@@ -27,16 +28,22 @@ class PendidikanAdapter : ListAdapter<Pendidikan, PendidikanAdapter.ViewHolder>(
         RecyclerView.ViewHolder(binding.root) {
         
         fun bind(item: Pendidikan) {
-            binding.tvInstitusi.text = item.institusi
-            binding.tvJurusan.text = item.jurusan
-            binding.tvTahun.text = "${item.tahunMulai} - ${item.tahunSelesai}"
-            binding.tvDeskripsi.text = item.deskripsi
+            binding.tvLevel.text = item.levelName
+            binding.tvInstitusi.text = "• ${item.institusi}"
+            binding.tvTahun.text = "• ${item.tahunMulai} - ${item.tahunSelesai}"
+            
+            if (item.jurusan.isNotEmpty()) {
+                binding.tvDetail.visibility = View.VISIBLE
+                binding.tvDetail.text = "• ${item.jurusan}"
+            } else {
+                binding.tvDetail.visibility = View.GONE
+            }
         }
     }
 
     class DiffCallback : DiffUtil.ItemCallback<Pendidikan>() {
         override fun areItemsTheSame(oldItem: Pendidikan, newItem: Pendidikan): Boolean {
-            return oldItem.institusi == newItem.institusi
+            return oldItem.institusi == newItem.institusi && oldItem.levelName == newItem.levelName
         }
 
         override fun areContentsTheSame(oldItem: Pendidikan, newItem: Pendidikan): Boolean {

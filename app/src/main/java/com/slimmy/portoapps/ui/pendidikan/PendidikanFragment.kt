@@ -1,4 +1,4 @@
-package com.portfolio.app.ui.pengalaman
+package com.slimmy.portoapps.ui.pendidikan
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,26 +7,26 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.portfolio.app.data.DatabaseHelper
-import com.portfolio.app.databinding.FragmentPengalamanBinding
+import com.slimmy.portoapps.data.DatabaseHelper
+import com.slimmy.portoapps.databinding.FragmentPendidikanBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class PengalamanFragment : Fragment() {
+class PendidikanFragment : Fragment() {
 
-    private var _binding: FragmentPengalamanBinding? = null
+    private var _binding: FragmentPendidikanBinding? = null
     private val binding get() = _binding!!
 
     private lateinit var dbHelper: DatabaseHelper
-    private lateinit var adapter: PengalamanAdapter
+    private lateinit var adapter: PendidikanAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentPengalamanBinding.inflate(inflater, container, false)
+        _binding = FragmentPendidikanBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -39,16 +39,16 @@ class PengalamanFragment : Fragment() {
     }
 
     private fun setupRecyclerView() {
-        adapter = PengalamanAdapter()
-        binding.rvPengalaman.layoutManager = LinearLayoutManager(requireContext())
-        binding.rvPengalaman.adapter = adapter
+        adapter = PendidikanAdapter()
+        binding.rvPendidikan.layoutManager = LinearLayoutManager(requireContext())
+        binding.rvPendidikan.adapter = adapter
     }
 
     private fun loadData() {
         lifecycleScope.launch(Dispatchers.IO) {
-            val pengalaman = dbHelper.getPengalaman()
+            val pendidikan = dbHelper.getPendidikan()
             withContext(Dispatchers.Main) {
-                adapter.submitList(pengalaman)
+                adapter.submitList(pendidikan)
             }
         }
     }

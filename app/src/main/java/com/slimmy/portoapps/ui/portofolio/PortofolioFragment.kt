@@ -1,4 +1,4 @@
-package com.portfolio.app.ui.portofolio
+package com.slimmy.portoapps.ui.portofolio
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.portfolio.app.data.DatabaseHelper
-import com.portfolio.app.databinding.FragmentPortofolioBinding
+import com.slimmy.portoapps.data.DatabaseHelper
+import com.slimmy.portoapps.databinding.FragmentPortofolioBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
